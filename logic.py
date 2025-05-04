@@ -132,3 +132,5 @@ WHERE skill_id = ? AND project_id = ? """ # Masukkan kueri SQL yang benar di sin
 
 if __name__ == '__main__':
     manager = DB_Manager(DATABASE)
+    manager.insert_skill(1,'web','html')
+    manager.default_insert()
